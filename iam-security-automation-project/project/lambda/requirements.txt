@@ -1,0 +1,6 @@
+# Add any Python packages your Lambda needs that are not included in the AWS Lambda runtime.
+# boto3 is included in the Lambda runtime by default; include it here only if you need a
+# specific version for local testing.
+
+boto3
+botocore
