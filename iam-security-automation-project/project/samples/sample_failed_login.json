@@ -1,0 +1,22 @@
+{
+  "Records": [
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "userName": "alice",
+        "arn": "arn:aws:iam::123456789012:user/alice",
+        "accountId": "123456789012"
+      },
+      "eventTime": "2025-12-01T12:40:00Z",
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "198.51.100.23",
+      "userAgent": "Mozilla/5.0",
+      "requestParameters": null,
+      "responseElements": null,
+      "errorMessage": "Failed authentication"
+    }
+  ]
+}
