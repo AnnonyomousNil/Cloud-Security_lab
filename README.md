@@ -11,6 +11,7 @@
 
 Cloud-Security_lab/
 ├── iam-security-automation-project/
+│   ├── screenshots/                    # All AWS screenshots of this project
 │   └── project/                        # <- All project content lives here (matches Cloud-Security_lab style)
 │       ├── README.md                   # Project-specific README (detailed instructions)
 │       ├── lambda/
@@ -39,6 +40,7 @@ Cloud-Security_lab/
 - `iam-security-automation-project/project/infra/eventbridge-rule.json` — EventBridge schedule rule snippet.
 - `iam-security-automation-project/project/samples/sample_root_signin.json` — Synthetic CloudTrail event for testing root signin detection.
 - `iam-security-automation-project/project/samples/sample_failed_login.json` — Synthetic CloudTrail event for testing failed logins.
+- `iam-security-automation-project/screenshots` - All AWS screenshots that I tested in.
 
 
 ---
